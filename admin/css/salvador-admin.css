@@ -1,0 +1,33 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+body.getsalvador div.media-modal {
+    top: 25px;
+    bottom: 25px;
+}
+body.getsalvador iframe.getsalvador-iframe {
+    display: none;
+    border: 0px none transparent;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+body.getsalvador.getsalvador-body-open div.media-frame-toolbar {
+    display: none !important;
+}
+body.getsalvador.getsalvador-body-open div.media-frame-content {
+    bottom: 0 !important;
+}
+body.getsalvador.getsalvador-body-open div.media-frame-content > div {
+    display: none;
+}
+body.getsalvador.getsalvador-body-open iframe.getsalvador-iframe {
+    display: block;
+}
